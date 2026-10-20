@@ -1,0 +1,9 @@
+video-analysis-skill
+Copyright 2026 Malik-rgb43
+
+A Claude Code skill and the local tools it runs, extracted from the editing-workflow toolkit
+(https://github.com/Malik-rgb43/editing-workflow).
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party components are referenced, not bundled: FFmpeg (system), numpy, Pillow,
+faster-whisper (optional, with the speech model you choose to download).

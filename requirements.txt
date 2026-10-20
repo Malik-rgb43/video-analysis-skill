@@ -1,0 +1,4 @@
+numpy
+Pillow
+# optional: local speech-to-text (transcript). The speech model is a separate download that the tool asks about first.
+faster-whisper

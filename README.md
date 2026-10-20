@@ -16,8 +16,9 @@ A Claude Code skill that lets Claude analyse a video: every frame measured, keyf
 
 דרישות: Python 3.9 ומעלה, [FFmpeg](https://ffmpeg.org/) במערכת.
 
+פותחים את קובץ ה-ZIP לתיקייה (או משבטים את הריפו: `git clone https://github.com/Malik-rgb43/video-analysis-skill`), ואז:
+
 ```bash
-git clone https://github.com/Malik-rgb43/video-analysis-skill
 cd video-analysis-skill
 pip install numpy Pillow
 python tools/analyze.py --check
@@ -27,7 +28,7 @@ python tools/analyze.py --check
 
 > תנתח לי את הסרטון הזה: C:\path\to\video.mp4
 
-אפשר גם לומר ל-Claude Code: "תתקין את https://github.com/Malik-rgb43/video-analysis-skill".
+אפשר גם לתת ל-Claude Code את התיקייה ולומר: "תתקין את הסקיל הזה".
 
 ### תמלול (לא חובה)
 
